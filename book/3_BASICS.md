@@ -258,7 +258,67 @@ These mistakes happen to everyone. You don't have to panic when Processing shows
 
 ### Examples to illustrate the previously learned
 
+Below you find working examples of the concepts we discussed above. You can simply copy and paste them into a blank Processing sketch.
 
+```java
+// Three circles in a row
+
+void setup() {
+  size(1200, 800);
+}
+
+void draw() {
+  background(#212B36);
+  
+  noFill();
+  stroke(#BBE5B3);
+  strokeWeight(3);
+  ellipse(500, 400, 600, 600);
+  ellipse(600, 400, 600, 600);
+  ellipse(700, 400, 600, 600);
+}
+```
+
+```java
+// A square and two lines
+
+void setup() {
+  size(1200, 800);
+}
+
+void draw() {
+  background(#F9FAFB);
+  
+  stroke(#1C2260);
+  strokeWeight(4);
+  line(100, 300, 1100, 300);
+  line(100, 500, 1100, 600);
+  
+  fill(#FFEA8A);
+  rect(500, 300, 200, 200);
+}
+```
+
+```java
+// A square above a circle
+
+void setup() {
+  size(1200, 800);
+}
+
+void draw() {
+  background(#F9FAFB);
+
+  noStroke();
+  fill(#DFE3E8);
+  ellipse(500, 400, 300, 300);
+  
+  fill(#5C6AC4);
+  rect(450, 250, 300, 300);
+}
+
+```
 
 ### Conclusion
 
+If you understand all of the concepts above you are ready for the next level of generative design. Until now we were only building static graphic designs. We made a reflection of what Adobe Illustrator can do, only in code. You might know already that Processing is much mightier than this.
