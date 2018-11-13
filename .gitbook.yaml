@@ -1,1 +1,5 @@
 root: ./book/
+
+structure:
+  readme: 1_INTRODUCTION.md
+  summary: 0_SUMMARY.md
