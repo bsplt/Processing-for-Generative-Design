@@ -4,11 +4,13 @@
 
 Processing is a software that offers us a lot of possibilities that we would also find in regular graphic design software \(like Adobe Illustrator\). Both enable us to draw some graphics on a canvas and export it in different ways. But Processing has the power repeat different operations very quickly and use external or random data together in a defined logical way to create things that are not possible in Adobe Illustrator.
 
-The reason behind this difference is the nature of the two: With Adobe Illustrator, we use a general purpose software which is a reflection of the design processes before computers. With Processing, we build a specialized software with the help of programming, incorporating the power of the digital. Processing calls the software pieces, that you create, _sketches_.
+The reason behind this difference is the nature of the two: With Adobe Illustrator, we use a general purpose software. It is a mere reflection of the design processes before computers. With Processing, we build a specialized software with the help of programming, incorporating the true power of the digital.
+
+Processing calls the software pieces, that you create, _sketches_. So, when you are writing code in Processing, you are writing a _sketch_.
 
 ## It's all code
 
-A fundamental difference between working with traditional design software and tools like Processing is, that everything you do is written in text. This text is called code because Processing makes an interpretation of that text to run its operations. You will never have draw a rectangle or bézier curve by hand. It's all written out.
+A fundamental difference between working with traditional design software and tools like Processing is our  output. Traditionally we would move vectors or pixels. For Processing we have to write text. This text is called code. Processing interprets this code to run its operations. You will never have draw a rectangle or bézier curve by hand. It's all written out.
 
 ## Getting Processing
 
@@ -18,7 +20,9 @@ You can find documentation and downloads on the official [website](https://proce
 
 _What_ we do in Processing can be done in any widespread programming language you can probably think of. But _how_ we do it is especially easy and lean in Processing. Processing is free, there is not much need for installations and Processing sketches are only one file, easy to share and uncomplicated. It also offers a lot of things we use as graphic designers, without the need to care about anything.
 
-So Processing is an ideal starting point for generative design, especially for beginners. We do not have to take care of all the other tedious implications that programming normally has. It is made by designers and artists for designers and artists.
+So Processing is an ideal starting point for generative design (and every other graphical computation), especially for beginners. We do not have to take care of all the other tedious implications that programming normally has.
+
+It is made by designers and artists for designers and artists.
 
 ## A common ground to start
 
@@ -41,7 +45,7 @@ void setup() {
 }
 ```
 
-Woah! There is a lot going on at once. All these weird parentheses ... Don't worry, at this stage you only have to care about the abstract concept behind this, which I'm trying to explain you with the help of the analogy. The rest, like `void` or these `()`, `{}` and `//` I will explain further down.
+Woah! There is a lot going on at once. Weird parentheses alarm! Don't worry, at this stage you only have to care about the abstract concept behind this, which I'm trying to explain you with the help of the analogy. The rest, like `void` or these `()`, `{}` and `//` I will explain further down.
 
 We have two important things here. First writing `setup`. When you run your own sketch, Processing will look for a way to set up your sketch. The most important setting that we have to define is the size of the window. By using `size` with two values, Processing will create a window with the width and height values that you have stated in code. So in our example the windows would be a square width an edge length of 800 pixels.
 
@@ -50,6 +54,8 @@ We have two important things here. First writing `setup`. When you run your own 
 Using different values in `size` depends on the size of your display. Your screen has a certain resolution and your `size` values have to be smaller.
 
 For example, if you have a display with a resolution of `1920` by `1080`, reasonable values would be `size(1600, 900);`
+
+When you run a sketch with your graphical output will open. This window has a canvas, and it is exactly the size that you specified with `size`. Everything your code draws will be drawn on this canvas.
 
 One important concept is the origin of the canvas. Technically speaking the origin is the point with the values `0, 0`. In Illustrator it it on the top left of you canvas. In Processing it is the top left of the window of your running sketch.
 

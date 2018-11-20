@@ -1,13 +1,12 @@
 # Table of contents
 
-* [Processing for Generative Design](1_BOOK.md)
+* [About the Book](1_book.md)
 
 ## Getting Started
 
-* [About the Book](getting-started/1_book.md)
-* [About Generative Design](getting-started/2_introduction.md)
+* [About Generative Design](2_introduction.md)
 
 ## Processing
 
-* [Basics of Processing](processing/3_basics.md)
-
+* [Basics of Processing](3_basics.md)
+* [Advanced Drawing Techniques](4_advanced.md)
