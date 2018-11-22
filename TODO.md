@@ -32,3 +32,7 @@ TBD Building different tools
 ### Practice and examples
 
 TBD The book needs this as a category
+
+## Reference
+
+Link for resources with chinese subtitles
