@@ -24,6 +24,7 @@
 - [ ] Randomness
 - [ ] Methods and return values
 - [ ] Classes
+- [ ] Responsiveness
 
 ### Conceptual work with Processing
 
