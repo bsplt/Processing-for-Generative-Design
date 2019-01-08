@@ -10,7 +10,7 @@ Processing calls the software pieces, that you create, _sketches_. So, when you 
 
 ## It's all code
 
-A fundamental difference between working with traditional design software and tools like Processing is our  output. Traditionally we would move vectors or pixels. For Processing we have to write text. This text is called code. Processing interprets this code to run its operations. You will never have draw a rectangle or bézier curve by hand. It's all written out.
+A fundamental difference between working with traditional design software and tools like Processing is our  output. Traditionally we would move vectors or pixels. For Processing we have to write text. This text is called code. Processing interprets this code to run its operations. You will never have draw a rectangle or bézier curve by hand. It's all described in code.
 
 ## Getting Processing
 
@@ -24,13 +24,19 @@ So Processing is an ideal starting point for generative design (and every other 
 
 It is made by designers and artists for designers and artists.
 
+## Why not work in the browser, for example with p5.js?
+
+In recent times you probably felt a hype about web technologies. Web development is advancing on a fast pace and offering almost all the possibilities you have in desktop computing. For Processing, there is a web based co-evolution called [p5.js](https://p5js.org/).
+
+p5.js is a great tool. Nonetheless it implicates all the complexities that you have in web development. If you are interested in training on the latest state of web development, then you should consider using p5.js. If you are more interested in learning the algorithmic part behind Generative Design, I would recommend using Processing.
+
 ## A common ground to start
 
-I suggest it will be easier for designers to learn processing with the help of analogies. In every design school I have taught so far students already had a profound knowledge of Adobe Illustrator. So this is a good starting point to create some references in terminology and work flow. In the first paragraphs, as long as necessary, I will use Illustrator as a comparison.
+In every class I have taught so far students had a profound knowledge of Adobe Illustrator. I will use it as an analogy to create some references in terminology and work flow. In the first paragraphs, as long as necessary, I will use Illustrator as a comparison to Processing.
 
 ## The very basics of Processing
 
-Once you open Processing for the first time, you will not see much. There is an empty text editor and a big play button. Clicking on that play button will run your software, as soon as you have written some code, but right now it will not do a thing. We first need to define some basics.
+Once you open Processing for the first time, you will not see much. What you see is an empty text editor and a big play button on top. Clicking on that play button will run your software, as soon as you have written some code. Right now not much will happen. We first need to define some basics.
 
 ## Setting up your sketch
 

@@ -13,9 +13,10 @@
 - [x] Code basics
 - [x] Styling
 - [x] Basic Errors
-- [ ] File handling
+- [x] File handling
+- [ ] graphical elements besser beschreiben
 - [ ] Text output
-- [ ] Shapes
+- [x] Shapes
 - [ ] Images
 - [ ] 3D
 - [ ] Variables and Operations
@@ -24,6 +25,7 @@
 - [ ] Randomness
 - [ ] Methods and return values
 - [ ] Classes
+- [x] Responsiveness
 
 ### Conceptual work with Processing
 
