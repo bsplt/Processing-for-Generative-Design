@@ -36,7 +36,7 @@ In every class I have taught so far students had a profound knowledge of Adobe I
 
 ## The very basics of Processing
 
-Once you open Processing for the first time, you will not see much. There is an empty text editor and a big play button. Clicking on that play button will run your software, as soon as you have written some code, but right now it will not do a thing. We first need to define some basics.
+Once you open Processing for the first time, you will not see much. What you see is an empty text editor and a big play button on top. Clicking on that play button will run your software, as soon as you have written some code. Right now not much will happen. We first need to define some basics.
 
 ## Setting up your sketch
 

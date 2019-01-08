@@ -13,7 +13,7 @@
 - [x] Code basics
 - [x] Styling
 - [x] Basic Errors
-- [ ] File handling
+- [x] File handling
 - [ ] Text output
 - [ ] Shapes
 - [ ] Images
@@ -24,7 +24,7 @@
 - [ ] Randomness
 - [ ] Methods and return values
 - [ ] Classes
-- [ ] Responsiveness
+- [x] Responsiveness
 
 ### Conceptual work with Processing
 
