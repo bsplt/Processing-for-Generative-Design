@@ -14,8 +14,9 @@
 - [x] Styling
 - [x] Basic Errors
 - [x] File handling
+- [ ] graphical elements besser beschreiben
 - [ ] Text output
-- [ ] Shapes
+- [x] Shapes
 - [ ] Images
 - [ ] 3D
 - [ ] Variables and Operations
